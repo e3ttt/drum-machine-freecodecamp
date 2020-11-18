@@ -1,37 +1,39 @@
 import './App.css';
 
+import hiHat from './sounds/hi-hat.mp3';
+import china from './sounds/china-cymbal.mp3';
+import bassDrum from './sounds/bass-drum.mp3';
+import floor from './sounds/floor-tom.mp3';
+import snare from './sounds/snare-drum.mp3';
+import medium from './sounds/medium-tom.mp3';
+import crash from './sounds/crash-cymbal.mp3';
+import ride from './sounds/ride-cymbal.mp3';
+import splash from './sounds/splash-cymbal.mp3';
+
+import DrumPad from './components/DrumPad';
+
 function App() {
   return (
     <div className="App" id="drum-machine">
       <div id="display">Display</div>
       <div className="drum-pad-container">
-        <div className="drum-pad" id="bass-drum">
-          <audio id="Q" className="clip" src=""></audio>Q
-        </div>
-        <div className="drum-pad" id="floor-tom">
-          <audio id="W" className="clip" src=""></audio>W
-        </div>
-        <div className="drum-pad" id="snare-drum">
-          <audio id="E" className="clip" src=""></audio>E
-        </div>
-        <div className="drum-pad" id="tom-tom">
-          <audio id="A" className="clip" src=""></audio>A
-        </div>
-        <div className="drum-pad" id="hi-hat">
-          <audio id="S" className="clip" src=""></audio>S
-        </div>
-        <div className="drum-pad" id="crash-cymbal">
-          <audio id="D" className="clip" src=""></audio>D
-        </div>
-        <div className="drum-pad" id="ride-cymbal">
-          <audio id="Z" className="clip" src=""></audio>Z
-        </div>
-        <div className="drum-pad" id="splash-cymbal">
-          <audio id="X" className="clip" src=""></audio>X
-        </div>
-        <div className="drum-pad" id="china-cymbal">
-          <audio id="C" className="clip" src=""></audio>C
-        </div>
+        <DrumPad triggerKey="Q" sound={bassDrum} />
+
+        <DrumPad triggerKey="W" sound={floor} />
+
+        <DrumPad triggerKey="E" sound={snare} />
+
+        <DrumPad triggerKey="A" sound={medium} />
+
+        <DrumPad triggerKey="S" sound={china} />
+
+        <DrumPad triggerKey="D" sound={crash} />
+
+        <DrumPad triggerKey="Z" sound={ride} />
+
+        <DrumPad triggerKey="X" sound={splash} />
+
+        <DrumPad triggerKey="C" sound={hiHat} />
       </div>
     </div>
   );
