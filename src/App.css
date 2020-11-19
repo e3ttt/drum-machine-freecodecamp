@@ -1,9 +1,18 @@
+:root {
+  --green-crayola: #4f9d69;
+  --medium-aquamarine: #68d89b;
+  --aquamarine: #8dffcd;
+  --aero-blue: #bcffdb;
+  --mint: #bee6ce;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: var(--green-crayola);
 }
 
 .drum-pad-container {
@@ -11,11 +20,17 @@
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
   grid-gap: 10px;
+  user-select: none;
 }
 
 .drum-pad {
-  border: 1px solid red;
+  border: 3px solid var(--medium-aquamarine);
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--mint);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--green-crayola);
 }

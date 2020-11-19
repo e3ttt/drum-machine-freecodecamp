@@ -2,15 +2,19 @@ import { useRef } from 'react';
 
 const DrumPad = props => {
   const audio = useRef(null);
+  const container = useRef(null);
+
   return (
     <div
       className="drum-pad"
       id={`${props.triggerKey}-container`}
+      ref={container}
       onClick={() => {
         audio.current.currentTime = 0;
         audio.current.play();
-        console.log(`${props.triggerKey}-container`);
       }}
+      onMouseDown={() => (container.current.style.backgroundColor = '#8dffcd')}
+      onMouseUp={() => (container.current.style.backgroundColor = '')}
     >
       <audio
         id={props.triggerKey}
