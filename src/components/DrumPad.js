@@ -1,5 +1,7 @@
 import { useRef } from 'react';
 
+import { keyToSound } from '../App';
+
 const DrumPad = props => {
   const audio = useRef(null);
   const container = useRef(null);
@@ -13,7 +15,12 @@ const DrumPad = props => {
         audio.current.currentTime = 0;
         audio.current.play();
       }}
-      onMouseDown={() => (container.current.style.backgroundColor = '#8dffcd')}
+      onMouseDown={() => {
+        container.current.style.backgroundColor = '#8dffcd';
+        props.setDisplay(
+          keyToSound.find(item => item.key === props.triggerKey).description,
+        );
+      }}
       onMouseUp={() => (container.current.style.backgroundColor = '')}
     >
       <audio
