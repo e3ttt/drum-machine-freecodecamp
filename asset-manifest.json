@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/drum-machine-freecodecamp/static/css/main.7175595d.chunk.css",
+    "main.js": "/drum-machine-freecodecamp/static/js/main.f5ff3a70.chunk.js",
+    "main.js.map": "/drum-machine-freecodecamp/static/js/main.f5ff3a70.chunk.js.map",
+    "runtime-main.js": "/drum-machine-freecodecamp/static/js/runtime-main.405395fd.js",
+    "runtime-main.js.map": "/drum-machine-freecodecamp/static/js/runtime-main.405395fd.js.map",
+    "static/js/2.6f914e2f.chunk.js": "/drum-machine-freecodecamp/static/js/2.6f914e2f.chunk.js",
+    "static/js/2.6f914e2f.chunk.js.map": "/drum-machine-freecodecamp/static/js/2.6f914e2f.chunk.js.map",
+    "static/js/3.54d3d9d2.chunk.js": "/drum-machine-freecodecamp/static/js/3.54d3d9d2.chunk.js",
+    "static/js/3.54d3d9d2.chunk.js.map": "/drum-machine-freecodecamp/static/js/3.54d3d9d2.chunk.js.map",
+    "index.html": "/drum-machine-freecodecamp/index.html",
+    "static/css/main.7175595d.chunk.css.map": "/drum-machine-freecodecamp/static/css/main.7175595d.chunk.css.map",
+    "static/js/2.6f914e2f.chunk.js.LICENSE.txt": "/drum-machine-freecodecamp/static/js/2.6f914e2f.chunk.js.LICENSE.txt",
+    "static/media/bass-drum.3d23d571.mp3": "/drum-machine-freecodecamp/static/media/bass-drum.3d23d571.mp3",
+    "static/media/china-cymbal.9ab8c388.mp3": "/drum-machine-freecodecamp/static/media/china-cymbal.9ab8c388.mp3",
+    "static/media/crash-cymbal.5e7ecfc1.mp3": "/drum-machine-freecodecamp/static/media/crash-cymbal.5e7ecfc1.mp3",
+    "static/media/floor-tom.6237e9d7.mp3": "/drum-machine-freecodecamp/static/media/floor-tom.6237e9d7.mp3",
+    "static/media/hi-hat.e424264c.mp3": "/drum-machine-freecodecamp/static/media/hi-hat.e424264c.mp3",
+    "static/media/medium-tom.4314cf5e.mp3": "/drum-machine-freecodecamp/static/media/medium-tom.4314cf5e.mp3",
+    "static/media/ride-cymbal.8a556658.mp3": "/drum-machine-freecodecamp/static/media/ride-cymbal.8a556658.mp3",
+    "static/media/snare-drum.548f262c.mp3": "/drum-machine-freecodecamp/static/media/snare-drum.548f262c.mp3",
+    "static/media/splash-cymbal.b26b3f70.mp3": "/drum-machine-freecodecamp/static/media/splash-cymbal.b26b3f70.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.405395fd.js",
+    "static/js/2.6f914e2f.chunk.js",
+    "static/css/main.7175595d.chunk.css",
+    "static/js/main.f5ff3a70.chunk.js"
+  ]
+}
